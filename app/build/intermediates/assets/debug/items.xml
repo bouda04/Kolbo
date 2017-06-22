@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    
+    <item >
+	    <name>clothes</name>
+	    <image>clothes.png</image>
+	    <version>1</version>
+	</item>
+	       
+    <item >
+	    <name>electricity</name>
+	    <image>electricity.png</image> 
+	     <version>1</version>
+	</item>
+	       
+	<item >
+	    <name>furniture</name>
+	    <image>furniture.png</image> 
+	     <version>1</version>
+	</item>
+	
+	<item >
+	    <name>food</name>
+	    <image>food.png</image>
+	     <version>1</version>
+	</item>
+	
+	<item >
+	    <category>food</category>
+	    <name>fruits</name>
+	    <image>fruits.png</image> 
+	     <version>1</version>
+	</item>
+	<item >
+	    <category>food</category>
+	    <name>dairy_products</name>
+	    <image>dairy_products.png</image> 
+	     <version>1</version>
+	</item>    
+	<item >
+	    <category>dairy_products</category>
+	    <name>milk</name>
+	    <image>milk.png</image> 
+	     <version>2</version>
+	      <cost>3</cost> 
+	       <units>liters</units>
+	</item> 
+	<item >
+	    <category>dairy_products</category>
+	    <name>white_cheese</name>
+	    <image>white_cheese.png</image> 
+	     <version>2</version>
+	      <cost>4.8</cost> 
+	       <units>items</units>
+	       <discount_limit>4</discount_limit>
+	       <discount_price>15</discount_price>
+	</item>
+	<item >
+	    <category>fruits</category> 
+	    <name>tomato</name>
+	    <cost>10.5</cost> 
+	    <image>tomato.png</image>
+	     <version>1</version>
+	         <units>kg</units>
+	</item>
+	   
+	<item >
+	    <category>fruits</category>
+	    <name>banana</name> 
+	    <cost>5.5</cost>
+	    <image>banana.png</image> 
+	     <version>1</version>
+	     <units>kg</units>
+	</item>
+	
+</items>
+

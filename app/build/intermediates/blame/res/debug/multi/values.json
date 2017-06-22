@@ -1,0 +1,391 @@
+[
+    {
+        "outputFile": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 52,
+                        "endOffset": 204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 51,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 207,
+                        "endColumn": 48,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 42,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 42,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 35,
+                    "endOffset": 348
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 498,
+                        "endColumn": 32,
+                        "endOffset": 530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 353,
+                    "endColumn": 41,
+                    "endOffset": 390
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 459,
+                        "endColumn": 38,
+                        "endOffset": 497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 395,
+                    "endColumn": 43,
+                    "endOffset": 434
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 293,
+                        "endColumn": 40,
+                        "endOffset": 333
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 439,
+                    "endColumn": 41,
+                    "endOffset": 476
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 575,
+                        "endColumn": 38,
+                        "endOffset": 613
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 481,
+                    "endColumn": 52,
+                    "endOffset": 529
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 52,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 534,
+                    "endColumn": 46,
+                    "endOffset": 576
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 531,
+                        "endColumn": 43,
+                        "endOffset": 574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 581,
+                    "endColumn": 37,
+                    "endOffset": 614
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 614,
+                        "endColumn": 34,
+                        "endOffset": 648
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 619,
+                    "endColumn": 44,
+                    "endOffset": 659
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 376,
+                        "endColumn": 41,
+                        "endOffset": 417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 664,
+                    "endColumn": 44,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 334,
+                        "endColumn": 41,
+                        "endOffset": 375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 39,
+                    "endOffset": 744
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 693,
+                        "endColumn": 36,
+                        "endOffset": 729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 749,
+                    "endColumn": 43,
+                    "endOffset": 788
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 418,
+                        "endColumn": 40,
+                        "endOffset": 458
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 793,
+                    "endColumn": 45,
+                    "endOffset": 834
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 649,
+                        "endColumn": 42,
+                        "endOffset": 691
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 839,
+                    "endColumn": 39,
+                    "endOffset": 874
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 256,
+                        "endColumn": 36,
+                        "endOffset": 292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 879,
+                    "endLine": 26,
+                    "endColumn": 12,
+                    "endOffset": 1165
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1170,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1325
+                },
+                "from": {
+                    "file": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]

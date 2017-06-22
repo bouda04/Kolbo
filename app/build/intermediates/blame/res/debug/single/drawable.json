@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sms.png",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\drawable\\sms.png"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\erase.png",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\drawable\\erase.png"
+    }
+]

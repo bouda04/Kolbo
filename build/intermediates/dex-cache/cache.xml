@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\android-sdks\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_77657caf37126c61c615c1ac9f39862986894175.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\libs\dropbox-android-sdk-1.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="986e7a58e925c6f91b88ae8d3224a0550b65acc7">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\dropbox-android-sdk-1.6.3_7dc40117d17cc5b3492aeb746850e09ba70250cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\libs\json-simple-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\json-simple-1.1_be95d8099f0b88a039dcaf6f5a9ab0d392c8776c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\libs\commons-net-3.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5e984db9554728564d58e90da5d90eff8ae8cf2d">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\commons-net-3.4_4f0abf12a8f64f259b128132e2c966b21cf2b852.jar" />
+    </item>
+
+</items>

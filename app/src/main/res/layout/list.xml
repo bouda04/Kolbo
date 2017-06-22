@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_marginTop="10dp"
+   >
+
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:fadeScrollbars="false" 
+        android:background="@drawable/border">
+
+        <TableLayout
+            android:id="@+id/MyTable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="1" >
+        </TableLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/scroller">
+
+        <Button
+            android:id="@+id/imageButton1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:drawableLeft="@drawable/sms" 
+            android:text="@string/send"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="@string/total" />
+
+        <TextView
+            android:id="@+id/totalSum"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+          />
+
+    </LinearLayout>     
+</RelativeLayout>

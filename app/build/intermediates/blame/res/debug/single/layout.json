@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listrow.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\layout\\listrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\layout\\items.xml"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_score.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\layout\\item_score.xml"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\layout\\list.xml"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\Kolbo\\app\\src\\main\\res\\layout\\item.xml"
+    }
+]
