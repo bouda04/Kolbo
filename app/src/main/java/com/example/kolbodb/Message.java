@@ -1,5 +1,7 @@
 package com.example.kolbodb;
 
+import android.text.Html;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -66,7 +68,7 @@ public class Message {
         cal.setTimeInMillis(creationTime);
         SimpleDateFormat format = new SimpleDateFormat("d/mm/yyyy 'at' HH:mm");
 
-        return format.format(cal.getTime()) + ":" + request;
+       return format.format(cal.getTime()) + ":" + request;
     }
 
     @Override

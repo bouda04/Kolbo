@@ -9,7 +9,9 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.text.Editable;
+import android.text.Html;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -37,7 +39,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class MessagesActivity extends Activity {
 
@@ -89,6 +93,23 @@ public class MessagesActivity extends Activity {
         public MyAdapter(@NonNull Context context) {
             super(context, android.R.layout.simple_list_item_1);
             listenToNewMessages();
+        }
+
+        @NonNull
+        @Override
+        public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+            if (convertView == null) {
+                convertView = LayoutInflater.from(getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
+            }
+            // Lookup view for data population
+            TextView tvDescription = (TextView) convertView.findViewById(android.R.id.text1);
+            Message msg = getItem(position);
+            GregorianCalendar cal = new GregorianCalendar();
+            cal.setTimeInMillis(msg.getCreationTime());
+            SimpleDateFormat format = new SimpleDateFormat("d/mm/yyyy 'at' HH:mm");
+            tvDescription.setText(Html.fromHtml("<b>" + format.format(cal.getTime()) + ":" +
+                    "</b><br><p><font color='#145A14'>"+msg.getRequest()+"</p></font>"));
+            return convertView;
         }
 
         private void listenToNewMessages(){
