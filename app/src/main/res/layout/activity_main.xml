@@ -7,20 +7,23 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.simpleandroidproject.MainActivity" 
-    android:id = "@+id/mylayout">"
+    android:id = "@+id/mylayout">
 
           
           
- <fragment android:id="@+id/selectItem"
-        android:layout_width="fill_parent"
-        android:layout_height="250dp"
-        class= "com.example.simpleandroidproject.SelectItem"/>
-    <fragment android:id="@+id/listItems"
-        android:layout_width="fill_parent"
-        android:layout_height="200dp"
-        android:layout_below="@id/selectItem" 
-        android:layout_marginTop="10dp"       
-        class= "com.example.simpleandroidproject.List"/>
- 
+ <fragment
+     android:id="@+id/selectItem"
+      android:layout_width="fill_parent"
+      android:layout_height="250dp"
+      class= "com.example.simpleandroidproject.SelectItem"
+      tools:layout="@layout/items"/>
 
+<fragment
+    android:id="@+id/listItems"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:layout_below="@id/selectItem"
+    android:layout_marginTop="10dp"
+    class= "com.example.simpleandroidproject.List"
+    tools:layout="@layout/list"/>
 </RelativeLayout>

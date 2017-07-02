@@ -3,12 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\bouda04\android-sdks\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="C:\Users\bouda04\.android\build-cache\242a680703895e232a7aae4ae5e90c79f89fc47c\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_77657caf37126c61c615c1ac9f39862986894175.jar" />
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_f366d2864b207893bb4424d9e06ffffcdee8c41b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\android-sdks\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_2e191f9fb74f0b41af4247b1add7abe9cc0b74d6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -21,6 +30,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\17c9c66961acf482558c517a22a80cdc3aefd986\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_13b6ef941c8eac8781fef6fe812de8b249074de1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\8f98b7e21140708d906e52bdd1727eae681ac06b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_f7524446928401192471fbc25251a5ea675e32ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\libs\json-simple-1.1.jar"
         jumboMode="false"
         optimize="true"
@@ -30,12 +57,201 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\d8d2a1ec42b1114ba8c6ba893af1aecf1b6d6bb4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_406e978681c8ad25626ed33d0c17cf40b8221a39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\daecbb9aa1263a84076575cedd2af1c52ca87228\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_7d8abe215482d3f73976407a7fd90613ef181142.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\81a23deb483788decc153fe199a9d4fd751f1f9e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_06a950adaf10b8b178ad676514d81995c33558b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\cc97bb655292a67fe934ad55960f39d90e8c050e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_092900383898a622d85a0b1a551cd2e41eba7d57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\1bf5667c6555f6bd66311c0579ed7e4e9fde9e9b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_863e6e9955a8f0b2d358043aa8069c80420dffd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\cbceac5f1d5a9ec5726fd4140e706749df4a4347\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_e7e5ab33824ca02b21d54f5186c9a661165bf108.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\4e0a7d15d2912d6637c6bfc467adffa181c1da9d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_f0c3228a25830ddaf2e152d85fe1659cd94faea3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\9ffe0c658f72a3aaca071f4df30fb7154e5f1079\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_6d7e6442cbff2e7b5aadc6118d260d8056d72142.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\b2807afe8bd84af9110a8ee95b5a8b82e19bbfec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_b0d703b3e6601b1e039dbc86c48d02245ff2b7cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\libs\commons-net-3.4.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="5e984db9554728564d58e90da5d90eff8ae8cf2d">
         <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\commons-net-3.4_4f0abf12a8f64f259b128132e2c966b21cf2b852.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\c90e3c1bf1461a42273c675e680e92f5f46a65a6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_fb5e888512931b7775b3cb5ee7963a8722eb3341.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\c75d98ac7612ae0ce5fe3021a29a42ba3d15380e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_848758f956717eab38d1c0316964f8e7cb63ab36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\9dd33e8785f5a70d687ed5fe367eb35cabba7432\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_37ec2d951dc95dbb6fafd68166afeb9568c7ea53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\14dfb7cc49b77993e9ad1575d37824a4dd4e9d07\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_b38c09efb9b6db01eedc392fddb1c4c54dbc29f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\30eaff9b630df5df1d33e9e76125ed6c8f8c0bcb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_277e11ccc115a41571afa49d5bcbc2b0d4b68cce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\12c75bef024c47d0ec05c5ae3155abd8da3649f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_e4e36027d65237434864df67f12f824533ebb7b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\5c18d862acef3f7fa04753a95df5ffc411522971\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_5ee5ff8c0242b8705fa31c0ffb532a4d7c358e03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\ad747c34d25f62ce65e6f790f65cce9fff3c499d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_7b2a4c8f4daac0783c0cf97dedaaf0c3c16d7f81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\f829550fc96b0711239c15ce38f8cc30f6f68331\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_de7f1d98852ca12be53f32cdd495149dadfba74a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\69267c18c2788a78d7b2f05b6d01644154225a8e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_a080c4f8a4aa7e388275a0c570e6c086248929ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\1bfb246cde25611ec3f368188ceb1cf89faca555\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_c7ccdeb2f4e4981d34aa926ac6fb6ab0b9b5d309.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\.android\build-cache\5761a6c1fa3ad61a7fc89d470ab3e59cc3869aee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="C:\Users\bouda04\AndroidStudioProjects\Kolbo\app\build\intermediates\pre-dexed\debug\classes_b1e26efa9be17cc7ca3ce73e781327215cbacb21.jar" />
     </item>
 
 </items>

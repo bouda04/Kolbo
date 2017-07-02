@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "119970285500",
+    "firebase_url": "https://kolbo-d1605.firebaseio.com",
+    "project_id": "kolbo-d1605",
+    "storage_bucket": "kolbo-d1605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119970285500:android:107729e830ee8ba9",
+        "android_client_info": {
+          "package_name": "com.example.simpleandroidproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119970285500-lldah9rnd614vu4jl5nt3q26vasm1mf5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simpleandroidproject",
+            "certificate_hash": "6089b4bbb83b8670f8c4d28bd4d943b05c5e4f48"
+          }
+        },
+        {
+          "client_id": "119970285500-o3q0cf4o694urm6bptd7chm5b8fts298.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7AVrVbxv6HfaRg99TWuL5ifRi4hknckc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119970285500-o3q0cf4o694urm6bptd7chm5b8fts298.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

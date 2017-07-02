@@ -5,10 +5,19 @@ package com.example.simpleandroidproject;
 
 
 import java.io.File;
+import java.util.Date;
 
 import com.example.kolbodb.DBContract.items;
+import com.example.kolbodb.Message;
 import com.example.kolbodb.MyApplication;
 import com.example.simpleandroidproject.MyDialog.ResultsListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import android.app.DialogFragment;
 import android.app.Fragment;
@@ -74,7 +83,7 @@ public class SelectItem extends Fragment implements ResultsListener{
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
 				String name; 
-				Toast toast = Toast.makeText(getActivity(), "a click on" + (name = adapter.getNameofItem(position)) + "was done", 300);
+				Toast toast = Toast.makeText(getActivity(), "a click on" + (name = adapter.getNameofItem(position)) + "was done", Toast.LENGTH_LONG);
 				//toast.show();
 				if(!adapter.onItemClick(name)) 
 				{
@@ -202,17 +211,50 @@ public class SelectItem extends Fragment implements ResultsListener{
 					public void onClick(View v) {
 						String itemName = adapter.getNameofItem(positionOfItem);
 						final EditText edNewPrice = (EditText)view.findViewById(R.id.edtNewPrice);
-						MyApplication.sendMessageToManager("Client is requestion discount for item '"
+						sendMessageToManager("Client is requesting discount for item '"
 								+ itemName + "', amount =" + amount + ", request price = "
 								+ edNewPrice.getText());
-
+						Toast.makeText(MyApplication.getAppContext(), "A request was sent to the store manager, please wait!", Toast.LENGTH_LONG).show();
 					}
 
 				});
 
 				return view;
 			}
+
+			private  void sendMessageToManager(String msg){
+				Message message = new Message();
+				message.setRequest(msg);
+				message.setCreationTime(new Date().getTime());
+				message.setUserId(FirebaseAuth.getInstance().getCurrentUser().getUid());
+				final DatabaseReference mDatabase;
+				mDatabase = FirebaseDatabase.getInstance().getReference();
+				final String key = mDatabase.child("messages").push().getKey();
+				mDatabase.child("messages").child(key).setValue(message);
+				mDatabase.child("messages").child(key).addValueEventListener(new ValueEventListener() {
+					@Override
+					public void onDataChange(DataSnapshot dataSnapshot) {
+
+						Message msg = dataSnapshot.getValue(Message.class);
+						if (msg!= null && msg.getResponse()!= null) {
+							Toast.makeText(MyApplication.getAppContext(), "Response received:" + msg.getResponse(), Toast.LENGTH_LONG).show();
+							total =  Double.parseDouble(msg.getResponse());
+							tvTotal.setText(msg.getResponse());
+							mDatabase.child("messages").child(key).removeValue();
+						}
+					}
+
+					@Override
+					public void onCancelled(DatabaseError databaseError) {
+
+					}
+				});
+
+			}
+
 		}
+
+
 	@Override
 	public void onFinishedDialog(int requestCode, Object results) {
 		Toast.makeText(getActivity(), 

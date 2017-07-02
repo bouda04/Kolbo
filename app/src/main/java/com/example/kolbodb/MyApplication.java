@@ -169,7 +169,7 @@ public class MyApplication extends Application {
 
 	private static void writeMessage(JsonWriter writer, Message message) throws IOException {
 		writer.beginObject();
-		writer.name("id").value(message.getId());
+		writer.name("id").value(message.getUserId());
 		writer.name("request").value(message.getRequest());
 		writer.name("response").value("");
 		writer.endObject();

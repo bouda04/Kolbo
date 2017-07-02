@@ -24,9 +24,7 @@ import org.apache.commons.net.ftp.FTPClient;
 
 import com.example.kolbodb.Item;
 import com.example.kolbodb.XMLParser;
-
-
-
+import com.google.firebase.auth.FirebaseAuth;
 
 
 import android.app.ActionBar.LayoutParams;
@@ -82,7 +80,10 @@ Context context = this;
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
-		if (id == R.id.action_settings) {
+		if (id == R.id.action_logout) {
+			FirebaseAuth.getInstance().signOut();
+			startActivity(new Intent(this, SignupActivity.class));
+			finish();
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
